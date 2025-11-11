@@ -29,13 +29,27 @@ public class Pattern6 {
 		
 	}
 
+	public static void prt(int n)
+	{
+		for(int i=1;i<=n;i++)
+		{	int counter=1;
+			for(int j=n;j>=i;j--)
+			{
+				System.out.print(counter);
+				counter++;
+			}
+			System.out.println();
+		}
+
+	}
+	
 	public static void main(String[] args) {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter upto which you want to print Pattern");
 		int n=sc.nextInt();
-		printPattern(n);
-				
+//		printPattern(n);
+		prt(n);
 	}
 
 }
