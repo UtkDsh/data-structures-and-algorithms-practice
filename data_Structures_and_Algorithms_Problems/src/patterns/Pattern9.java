@@ -36,7 +36,7 @@ public class Pattern9 {
 		System.out.println("Enter upto which you want to print Pattern");
 		int n=sc.nextInt();
 		printPattern9(n);
-
+ 
 	}
 
 }
