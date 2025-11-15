@@ -44,6 +44,7 @@ public class CheckArmstrongNumber {
 			System.out.println("Entered Value is not a Number");
 		}
 
+		sc.close();
 	}
 
 }
